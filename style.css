@@ -1,0 +1,35 @@
+* {
+    background: #b1a46b;
+    padding: 0;
+    margin: 0;
+  }
+  
+  :root {
+    --base: #2d4500;
+    --spacing: 10px;
+    --blur: 2px;
+  }
+  
+  .container {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    margin: 20px;
+  }
+  
+  .controls {
+    margin-bottom: 50px;
+  }
+  
+  img {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+    width: 100vh;
+  }
+  
+  input {
+    width: 100px;
+    border: none;
+    background: transparent;
+  }
